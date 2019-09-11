@@ -45,7 +45,7 @@ y_train=to_categorical(y_train,num_classes=n_classes)
 y_test=to_categorical(y_test,num_classes=n_classes)
 
 o=Adam(lr=learning_rate,decay=learning_rate/epochs)
-face_model.compile(optimizer='Adam',loss='categorical_crossentropy')
+face_model.compile(optimizer=o,loss='categorical_crossentropy')
 face_model.fit(x_train,y_train,batch_size=batch_size,epochs=epochs,shuffle='true',validation_data=(x_test,y_test))
 face_model.save('face_reco2.MODEL')
 print(x_data.shape,y_data.shape)
