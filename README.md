@@ -12,9 +12,7 @@ Run the Generating_training_data.py to generate your training data. make sure to
 Your training directory should be in the following format
 
 |____facenet
-
-    |___people
-    
+     |___people
         |__PERSON NAME
   
 
