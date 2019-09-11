@@ -13,9 +13,9 @@ n_classes=6
 
 e=emb()
 arc=DenseArchs(n_classes)
-face_model=arc.arch()
+#face_model=arc.arch()
 
-#face_model = load_model('face_reco2.MODEL')
+face_model = load_model('face_reco2.MODEL')
 
 x_data=[]
 y_data=[]
