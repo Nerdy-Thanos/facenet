@@ -9,7 +9,7 @@ from embedding import emb
 label=None
 a={0:0,1:0,2:0,3:0,4:0,5:0}
 people={0:"vignesh",1:"logesh",2:"sujitha",3:"yuva",4:"kirti",5:"aravind"}
-abhi=None
+
 #data=database()
 e=emb()
 fd=face()
@@ -60,7 +60,7 @@ while ret:
                         if(a[i]==0):
                             print("a")
                         a[i]=1
-                        abhi=i
+                        
             else:
                 label='unknown'
             #data.update(label)
