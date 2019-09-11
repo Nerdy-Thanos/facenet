@@ -10,6 +10,7 @@ Make sure a compatible version of CUDA and cuDNN are installed on top of tensorf
 Run the Generating_training_data.py to generate your training data. make sure to enable your webcam or camera.
 
 Your training directory should be in the following format
+
 ----facenet
 
     |___people
